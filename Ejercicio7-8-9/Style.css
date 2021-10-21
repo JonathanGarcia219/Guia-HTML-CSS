@@ -1,0 +1,51 @@
+body {
+
+    background-color:dodgerblue
+
+    
+}
+
+h1{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color:darkorchid;
+   text-align: center;
+}
+
+h2{
+   color: darkslateblue;
+   font-family: 'Georgia', 'Times New Roman', Times, serif;
+   font-weight: bold;
+   text-align: center;
+   font:xx-large;
+}
+
+p{
+ 
+text-align: left;
+font: small-caps 100%/200% serif;
+}
+
+a{
+    color: red;
+    
+}
+
+a:hover {
+    background-color: #CC0000;
+    color: #FFF;
+    display: -moz-stack;
+    height: max-content;
+}
+
+a:visited{
+    color:dimgray;
+}
+
+ol {
+    list-style-type: symbols();
+    list-style: linear-gradient();
+}
+
+ul {
+    list-style-type: lower-latin;
+}

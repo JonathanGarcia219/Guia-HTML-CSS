@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registrar un usuario</h1>
+    <br>
+
+    <form action="/Formulario" method="POST">
+        <label for="name"> Nombre del usuario </label>
+        <br>
+        <input id="name" type="text" name="valorName" placeholder="Ingrese su nombre aqui...">
+        <br>
+        <br>
+        <label for="password">Contraseña del usuario</label>
+        <br>
+        <input id="password" type="password" name="valorPass">
+        <br>
+        <br>
+        <label for="edad">Edad del usuario</label>
+        <br>
+        <input id="edad" type="number" name="valorEdad">
+        <br>
+        <br>
+        <label for="date">Fecha de nacimiento</label>
+        <br>
+        <input id="date" type="date" name="valorDate">
+        <br>
+        <br>
+        <label for="sexo"><b>Sexo del usuario</b></label>
+        <br>
+        <input type="radio" id="sexo" name="sexo_user" sexo="sexo_user" />
+        <label for="sexo">Hombre</label>
+
+        <br>
+        <input type="radio" id="sexo" name="sexo_user" sexo="sexo_user" />
+        <label for="sexo">Mujer</label>
+
+        <br>
+        <input type="radio" id="sexo" name="sexo_user" value="sexo_user" />
+        <label for="sexo">Prefiero no decir</b></label>
+        <br>
+        <br>
+
+        <p><b>Pais de nacimiento</b></p>
+        <select name="Pais de nacimiento">
+            <option>Argentina</option>
+            <option>Chile</option>
+            <option>Bolivia</option>
+            <option>Ecuador</option>
+            <option>Peru</option>
+            <option>Otro</option>
+        </select>
+
+        <br>
+        <br>
+
+        <class="button">
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+    </form>
+
+</body>
+
+</html>

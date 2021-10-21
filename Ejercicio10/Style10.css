@@ -1,0 +1,83 @@
+
+/*ENCABEZADO 1*/
+h1 {
+   color:teal;
+     
+}
+
+/*STRONG HACE REFERENCIA A LAS PALABRAS EN NEGRITA*/
+strong{
+    color: red;
+}
+
+/*ELEMENTOS EN LINEA...SE USA "." CUANDO HACE REFERENCIA A UNA CLASE CLASS=DESTACADO*/
+span.destacado{
+color:yellowgreen
+}
+
+/*ENCABEZADO 2*/
+h2{
+    color:blue;
+}
+
+/*PALABRAS CON ACCESO A OTRAS PAGINAS (HIPERVINCULOS)*/
+a{
+    color: red;
+
+}
+/*PARA MARCAR PARTES IMPORTANTES*/
+em{
+    color: blue;
+}
+
+/*USAMOS # CUANDO HACE REFERENCIA A UN ID,EN ESTE CASO ID=ADICIONAL*/
+div#adicional{
+
+    color:rgb(169, 190, 72);
+}
+/*IGUAL QUE EL ANTERIOR PERO EL "a" PARA DAR ESTILO A LOS ACCESS DENTRO DEL DIV*/
+div#adicional a{
+
+    color: green;
+}
+
+/*SPAN*/
+span#especial{
+
+    color:rgb(253, 19, 242);
+}
+
+/*PARA DARLE ESTILO Y COLOR A LOS CONTORNOS DE UNA TABLA*/
+table{
+
+    border-style: 1px solid black;
+}
+
+th{
+    color: red;
+    border: 1px solid black;
+}
+
+th.especial{
+
+    color: rgb(243, 243, 56);
+}
+
+td{
+    border: 1px solid black;
+    color: green;
+}
+
+td strong{
+
+    color: rgb(243, 243, 56);
+}
+
+tr em{
+    color: green;
+}
+
+body{
+    background-color:transparent;
+}
+
